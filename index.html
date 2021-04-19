@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<title>Ben's Personal Website</title>
+<meta charset="UTF-8">
+
+<!--
+Check out this link to see the various class names you can use with w3
+https://www.w3schools.com/w3css/4/w3.css
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "index.css" />
+
+<body class="w3-white">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Link to font awesome icons https://fontawesome.com/v4.7.0/icons/ just change the name after fa- and it will change the icon! -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>EDUCATION</p>
+  </a>
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-cog w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="#experience" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+    <h1 class="w3-jumbo">Benjamin Abraham</h1>
+    <p>Student at The University of Michigan.</p>
+    <img src="./photo.png" alt="boy" class="w3-image" width="500" height="450">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-black">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- EDIT THIS SECTION TO CHANGE YOUR ABOUT ME -->
+    <p> Hello! My name is Ben Abraham. I am a Freshman at The University of Michigan currently pursuing a Data Science major through the College of Literature, Science, and the Arts. I am constantly learning, and I enjoy making my community a better place for everyone. In addition to Data Science, I am very interested in sports and finance. This interest was actually what led me to pursue a degree in Data Science. I believe that there is so much to be learned from AI, and throughout my
+    time in College, I hope to complete Data Science projects in those fields. Additionally, in my free time, I love to golf, cook, and learn.
+    <br />
+    This year, I was able to take an introductory computer science course in which I learned the basics of C++ and Python. I learned how to build a variety of projects including a Battleship Game and a Cryptology Project. I also learned strong foundational skills in problem-solving, working in groups, and programming fundamentals.
+    This was all done in the midst of the Covid-19 Pandemic, and while the circumstances provided a more difficult learning enviroment, I was able to thrive in the class.
+  <!-- End About Section -->
+  </div>
+
+  <!-- Education Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="education">
+    <h2 class="w3-text-black">Education</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- EDIT THIS SECTION TO CHANGE YOUR College info -->
+    <h3><b>University of Michigan Ann Arbor</b></h3>
+    College of Literature, Science and the Arts
+    <p><i>Class of 2021</i></p>
+    <ul>
+      <li>Focusing in Data Science in the College of Literature, Science and the Arts</li>
+      <li>Courses Taken: Elementary Programming Concepts, Principles of Economics I and II, Calculus I, Comparitive Politics, Psychology as a Natural Science, 2nd-Year Spanish, and College Writing </li>
+    </ul>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- EDIT THIS SECTION TO CHANGE YOUR High School Info-->
+    <h3><b>Detroit Catholic Central</b></h3>
+    <i>Class of 2020</i>
+    <ul>
+      <li>Involved with a number of student organizations such as the Finance Club and DECA</li>
+      <li>Member of the Varsity Football team: 2017-2019</li>
+      <li>Member of the National Honors Society: 2018-2020</li>
+      <li>Member of the Gabriel Richard Club (3.5 GPA with no grade below B): 2016-2020</li>
+      <li>Completed four Advanced Placement classes: US History, Spanish, US Government and Politics, and Statistics</li>
+    </ul>
+  <!-- End Education Section -->
+  </div>
+
+
+  <!-- Experience Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="experience">
+    <h2 class="w3-text-black">Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- EDIT THIS SECTION TO CHANGE One experience section -->
+    <h3><b>Event Worker for the Novi Community School District</b></h3>
+    <p><i>Spring 2021 - Present</i></p>
+    <ul>
+      <li>Fulfilled a variety of roles including scoreboard manager, parking lot attendent, and ticket salesmen</li>
+      <li>Helped over 100 individuals in a given shift</li>
+      <li>Adapted well to varying responsibilities and tasks</li>
+    </ul>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- EDIT THIS SECTION TO CHANGE One experience section -->
+    <h3><b>Produce and Floral Associate at Busch's Fresh Food Market</b></h3>
+    <p><i>Summer 2020</i></p>
+    <ul>
+      <li>Assisted approximately 25 customers with finding grocercies and questions every shift</li>
+      <li>Created over 100 dollars worth of fruit trays, veggie trays, and guacamole in every shift</li>
+      <li>Became well respected amongst coworkers for dedictation to job</li>
+    </ul>
+
+
+  <!-- End Experiencee Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>I am always open to chat about new opportunities and my passions.
+      <br />
+      Feel free to reach out to me at any of these links</p>
+      <!-- EDIT THIS SECTION TO CHANGE your contact information -->
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ann Arbor, MI</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: benabra@umich.edu</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/benjamin-abraham-65117620b/">linkedin</a> </p>
+    </div><br>
+
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+    <!-- SOCIAL MEDIA ICONS (uncomment if you want them )-->
+    <!--
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
+
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
