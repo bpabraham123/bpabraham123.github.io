@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />-->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+          rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+
+
+  <body>
+    <!-- Start your project here-->
+
+    <header>
+
+
+
+  <!-- Background image -->
+  <div
+    class="p-5 text-center bg-image"
+    style="
+      background-image: url(background.jpeg);
+      height: 900px;
+    "
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white" style="font-family: 'Montserrat'">
+          <h1 class="mb-3">Benjamin Abraham</h1>
+          <h4 class="mb-3">A Computer Science Student at the University of Michigan</h4>
+          <a class="btn btn-outline-light btn-lg" href="#home" role="button"
+          >Learn More</a
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top" id="home">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- About Me Section-->
+  <div class="p-5 text-center text-white bg-dark" style="font-family: 'Montserrat'" id="about">
+    <h1 class="mb-3">About Me</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 text-primary">
+      <div class="col">
+        <div class="card border border-primary shadow-0">
+          <div class="card-body">
+            <i class="far fa-user-circle fa-3x"></i>
+            <p></p>
+            <h5 class="card-title">Background</h5>
+            <p class="card-text">
+              I am currently pursuing Computer Science at the University of Michigan.
+              Here, I have taken completed rigorous corsework relating to computer science,
+              statistics, mathematics, economics, and other subjects. This summer, I will be
+              interning with Lineage Logistics in their Data Technologies department.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border border-primary shadow-0">
+          <div class="card-body">
+            <i class="fas fa-check-double fa-3x"></i>
+            <p></p>
+            <h5 class="card-title">Intrests</h5>
+            <p class="card-text">
+              I am deeply interested in exploring the capabilities and limits of machine learning.
+              My interest in this field led me to build a machine learning model to predict fantasy
+              football points this past summer and a model to predict the median income of counties
+              in the United States.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border border-primary shadow-0">
+          <div class="card-body">
+            <i class="fas fa-code fa-3x"></i>
+            <p></p>
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">
+              Throughout my coursework, I have gained experience in a variety languages
+              including C++, Python, R, and LaTeX. In addition to these, I am proficient in
+              HTML and CSS (this website was built with MDB CSS). I am also currently learning SQL,
+              and I will be gaining experience in C, Assembly, Python, and React this fall.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+    <!-- End of About Me Section -->
+
+    <!-- Education Section -->
+
+    <div class="p-5 text-center text-light bg-dark" style="font-family: 'Montserrat'" id="education">
+      <h1 class="mb-3">Education</h1>
+
+      <div class="row row-cols-1 row-cols-md-1 g-4 text-primary">
+        <div class="col">
+          <div class="card bg-dark text-info border border-light shadow-0">
+            <div class="card-body">
+              <i class="fas fa-university fa-3x"></i>
+              <p></p>
+              <h5 class="card-title">University of Michigan: 2020 - Present</h5>
+              <p class="card-text">
+                In the Spring of 2024, I will be graduating from the University of Michigan
+                with a degree in Computer Science as well as a minor in Applied Statistics.
+                Currently, I am a member of one student organization, the Michigan Football
+                Analytics Society where I have been able to discuss ideas pertaining to the
+                application of statistics and machine learning towards american football and
+                write an article on a machine learning model I created to predict fantasy
+                football points. As of the Summer of 2022, I have taken a number of courses computer science,
+                statistics, mathematics, economics, and other subjects. Some relevant courses
+                that I have taken and those that I will be taking in the future are displayed below.
+                Additionally, courses that I will be taking in the Fall of 2022 are listed below.
+              </p>
+
+              <!-- Buttons trigger collapse -->
+              <a
+              class="btn btn-light text-primary border border-primary shadow-0"
+              data-mdb-toggle="collapse"
+              href="#previouslyTaken"
+              role="button"
+              aria-expanded="false"
+              aria-controls="previouslyTaken"> Relevant Courses </a>
+
+              <button
+              class="btn btn-light text-primary border border-primary shadow-0"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#currentlyTaking"
+              aria-expanded="false"
+              aria-controls="currentlyTaking"> Current Courses </button>
+
+              <!-- Collapsed content -->
+              <div class="row">
+                <div class="col">
+                  <div class="collapse multi-collapse mt-3 scroll-section text-start" id="previouslyTaken">
+                    <ul>
+                      <li>Data Structures and Algorithms (EECS 281): This course covered data structures in C++, algorithms (sorting, searching, graph, etc.), algorithm analysis, and optimization in C++.</li>
+                      <li>Programming and Introductory Data Structures (EECS 280): This course covered various datatypes (arrays, vectors, c-strings, and strings), pointers, and object-oriented programming all in C++.</li>
+                      <li>Applied Statistical Methods II (STATS 401): This course covered modeling and analysis of data with multiple linear regression (including diagnostics and model selection, two-way analysis of variance, interactions, transformations, and multiple comparison) in R.</li>
+                      <li>Foundations of Computer Science (EECS 376): This course covered topics in Theoretical Computer Science such as  automata theory, decidable and undecidable problems, polynomial time computability and paradigms of algorithm design, computation complexity theory, coping with intractability, exploiting intractability, and cryptography.</li>
+                      <li>Other relevant courses include Discrete Math (EECS 203), Introduction to Statistics and Data Analysis (STATS 250), and Elementary Programming Concepts (EECS 183).</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="collapse multi-collapse mt-3 scroll-section text-start" id="currentlyTaking">
+                    In the fall of 2022, I will be taking the following corses:
+                    <ul>
+                      <li>Web Systems (EECS 485): This course will cover client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems, and will incorporate a variety of languages including Python (Flask), javascript (React), SQLite, and more.</li>
+                      <li>Introduction to Computer Organization (EECS 370): This course will cover the basic concepts of computer organization and hardware, and will be taught in C and an assembly language.</li>
+                      <li>Introduction to Statistical Computing (STATS 306): This course will cover concepts in computer programming and statistical computing techniques as they are applied to data extraction and manipulation, statistical processing and visualization in R.</li>
+                      <li>Applied Linear Algebra (MATH 214): This course will cover the concepts needed to understand a wide variety of applications that use the ideas of linear algebra, from linear programming to mathematical economics</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-info border border-light shadow-0">
+            <div class="card-body">
+              <i class="fas fa-user-graduate fa-3x"></i>
+              <p></p>
+              <h5 class="card-title">Detroit Catholic Central High School 2016 - 2020</h5>
+              <p class="card-text">
+                Throughout high school, I was a member of several student organizations
+                including the Finance Club where as a member of the club, I was able to help
+                manage a portfolio worth nearly 100 thousand dollars. I also was a member of
+                DECA where I competed in the Stock Market Challange and the football team. I was
+                part of the National Honors Society from 2018 to 2020, and I completed four Advanced
+                Placement classes (Statistics, Calculus AB, Spanish, U.S. History, and U.S. Government and Politics).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Education Section -->
+
+    <!-- Experience Section -->
+
+    <div class="p-5 text-center text-light bg-dark " style="font-family: 'Montserrat'" id="experience">
+      <h1 class="mb-3">Experience</h1>
+
+      <div class="card w-100 text-primary bg-dark border border-light shadow-0">
+        <div class="card-body d-grid gap-2">
+
+          <button
+          class="btn btn-light text-primary border border-primary shadow-0"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#lineage"
+          aria-expanded="false"
+          aria-controls="lineage"> Data Technologies Intern ~ Lineage Logistics: Summer of 2022</button>
+
+          <div class="collapse multi-collapse mt-3 scroll-section text-start text-info" id="lineage">
+            <ul>
+              <li>To be updated later...</li>
+            <ul>
+          </div>
+
+          <button
+          class="btn btn-light text-primary border border-primary shadow-0"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#mFans"
+          aria-expanded="false"
+          aria-controls="mFans"> Member ~ Michigan Football Analytics Society: 2021 - Present</button>
+
+          <div class="collapse multi-collapse mt-3 scroll-section text-start text-info" id="mFans">
+            <ul>
+              <li>Applied Machine Learning and Statistical Analysis techniques to football data.</li>
+              <li>Improved technical skills in Python and R.</li>
+              <li>Individually, created a machine learning model to predict fantasy football stats (located on GitHub).</li>
+            </ul>
+          </div>
+
+          <button
+          class="btn btn-light text-primary border border-primary shadow-0"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#carls"
+          aria-expanded="false"
+          aria-controls="carls"> Sales Specialist ~ Carl's Golfland: Summer of 2021</button>
+
+          <div class="collapse multi-collapse mt-3 scroll-section text-start text-info" id="carls">
+            <ul>
+              <li>Communicated advantages and disadvantages of shoes to customers.</li>
+              <li>Ensured that the correct quantities of shoes were delivered.</li>
+              <li>Tracked quantities of shoes for customers in an inventory management system.</li>
+            </ul>
+          </div>
+          <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="Community Service.pdf" role="button">
+            Volunteer Experience
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Experience Section -->
+
+    <!-- Project Section -->
+
+    <div class="p-5 text-center text-light bg-dark " style="font-family: 'Montserrat'" id="projects">
+      <h1 class="mb-3">Projects</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card text-primary">
+            <img src="medianIncomePic.jpg" class="card-img-top" alt="Median Income Picture"/>
+            <div class="card-body">
+              <h5 class="card-title">County Median Income Multiple Regression Model</h5>
+              <p class="card-text">
+                This model was created as part of a course project for STATS 401.
+                In this project, I constructed a multiple regression model to predict
+                median income at the county level. The full code repository is available
+                on my GitHub repository (link to GitHub is in the contact section), but
+                the report and appendices is available below.
+              </p>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="medianIncomeProject/MedianIncome.pdf" role="button">
+                Report
+              </a>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="medianIncomeProject/Appendices.html" role="button">
+                Appendices
+              </a>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://github.com/bpabraham123/countyMedianIncome/tree/main" role="button">
+                Code Repository
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-primary">
+            <img src="eecs281pic.jpeg" class="card-img-top" alt="EECS 281"/>
+            <div class="card-body">
+              <h5 class="card-title">Projects From EECS 281</h5>
+              <p class="card-text">
+                Per class sylabus, I am not allowed to post these projects online.
+                However, in this course I completed a number of projects including
+                a map-searching algorithm, a Star Wars battlefield simulator,
+                implementations of various types of priority queues, a SQL inspired
+                database, and implementations of graph algorithms
+                (Exact and approximate Traveling Salesman Problem algorithms and
+                a Minimum Spanning Tree Algorithm). These projects were all completed
+                in C++, and a large emphasis was placed on time and memory optimization.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-primary">
+            <img src="eecs280pic.jpeg" class="card-img-top" alt="EECS 280"/>
+            <div class="card-body">
+              <h5 class="card-title">Projects From EECS 280</h5>
+              <p class="card-text">
+                Per class sylabus, I am not allowed to post these projects online.
+                However, in this course I completed a number of projects including
+                a statistical analysis tool, an image processing program, a Euchre Card Game,
+                a linked-list implementation, and a machine learning algorithm (Bayesian Logistical Regression).
+                Additionally, all of these projects were implemented in C++.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-primary">
+            <img src="fantFootballPic.jpg" class="card-img-top" alt="Fantasy Football"/>
+            <div class="card-body">
+              <h5 class="card-title">Fantasy Football Points Prediciton Model</h5>
+              <p class="card-text">
+                This project was originally created to predict fantasy Football
+                points for the 2021 - 2022 NFL season, but I plan to improve this
+                model for the 2022 - 2023 season. In this project, I leveraged a
+                number of Python libraries to help accomplish my goals including
+                scikit-learn, pandas, beautifulsoup, and urllib.
+              </p>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://mfootballanalytics.com/2021/10/05/fantasy-football-points-prediction-ml-model-for-2021-nfl-season/" role="button">
+                In-Depth Summary
+              </a>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://github.com/bpabraham123/FantasyFootball21-22" role="button">
+                Code Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-primary">
+            <img src="background.jpeg" class="card-img-top" alt="Website"/>
+            <div class="card-body">
+              <h5 class="card-title">Personal Website</h5>
+              <p class="card-text">
+                This website was originally created in the Spring of 2021. Since then,
+                I have continued to update and improve the functionality and design
+                of this site. Most recently, I completed a total overhaul of the site,
+                in which I redesigned it and developed it using HTML and MD Bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Project Section -->
+
+    <!-- Contact Section -->
+
+    <div class="p-5 text-center text-light bg-dark " style="font-family: 'Montserrat'" id="contact">
+      <h1 class="mb-3">Contact Me</h1>
+      <a class = "btn btn-primary btn-rounded"
+         href = "https://www.linkedin.com/in/benjaminpabraham">
+         <i class="fab fa-linkedin-in fa-2x"></i>
+      </a>
+      <a class = "btn btn-primary btn-rounded"
+         href = "https://github.com/bpabraham123">
+         <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a class = "btn btn-primary btn-rounded"
+         href = "mailto:bpabraham123@gmail.com?subject = Feedback&body = Message">
+         <i class="fas fa-envelope fa-2x"></i>
+      </a>
+    </div>
+
+
+    <!-- End of Contact Section -->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
