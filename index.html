@@ -113,8 +113,8 @@
             <p class="card-text">
               I am currently pursuing a B.S. in Computer Science at the University of Michigan.
               Here, I have completed rigorous corsework in a variety of subjects including
-              computer science, statistics, mathematics, economics, and others. This summer, I will be
-              interning with Lineage Logistics in their Data Technologies department.
+              computer science, statistics, mathematics, economics, and others. Currently, I 
+              am continuing my studies while working part-time as Data Engineer at Lineage Logistics.
             </p>
           </div>
         </div>
@@ -212,12 +212,11 @@
                 </div>
                 <div class="col">
                   <div class="collapse multi-collapse mt-3 scroll-section text-start" id="currentlyTaking">
-                    In the fall of 2022, I will be taking the following corses:
+                    In the fall of 2022, I will be taking the following relevant courses:
                     <ul>
-                      <li>Web Systems (EECS 485): This course will cover client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems, and will incorporate a variety of languages including Python (Flask), javascript (React), SQLite, and more.</li>
+                      <li>Web Systems (EECS 485): This course will cover client/server protocols, security, information retrieval and search engines, scalable data processing, and fault tolerant systems, and will incorporate a variety of languages including Python (Flask), Javascript (React), SQLite, and more.</li>
                       <li>Introduction to Computer Organization (EECS 370): This course will cover the basic concepts of computer organization and hardware, and will be taught in C and an assembly language.</li>
                       <li>Introduction to Statistical Computing (STATS 306): This course will cover concepts in computer programming and statistical computing techniques as they are applied to data extraction and manipulation, statistical processing and visualization in R.</li>
-                      <li>Applied Linear Algebra (MATH 214): This course will cover the concepts needed to understand a wide variety of applications that use the ideas of linear algebra, from linear programming to mathematical economics</li>
                     </ul>
                   </div>
                 </div>
@@ -259,15 +258,30 @@
           class="btn btn-light text-primary border border-primary shadow-0"
           type="button"
           data-mdb-toggle="collapse"
-          data-mdb-target="#lineage"
+          data-mdb-target="#lineage2"
           aria-expanded="false"
-          aria-controls="lineage"> Data Technologies Intern ~ Lineage Logistics: Summer of 2022</button>
+          aria-controls="lineage"> Data Engineer (Part Time) ~ Lineage Logistics: Fall of 2022 - Present</button>
 
-          <div class="collapse multi-collapse mt-3 scroll-section text-start text-info" id="lineage">
+          <div class="collapse multi-collapse mt-3 scroll-section text-start text-info" id="lineage2">
             <ul>
-              <li>Built a multi-page web application for data profiling to provide technology teams with a quick data analysis and visualization tool.</li>
-              <li>Constructed a natural language processing algorithm from scratch for use on over 400 thousand rows of data.</li>
-              <li>Worked closely Data Engineers, Data Architects, Data Scientists, and Data Analysts to help solve crucial business problems.</li>
+              <li>Using Python and Snowpark, develop routines utilizing machine learning and statistics to quantify data quality in multiple datasets over one million rows.</li>
+              <li>Research various approaches, algorithms, and Python libraries related to anomaly detection.</li>
+            <ul>
+          </div>
+
+          <button
+          class="btn btn-light text-primary border border-primary shadow-0"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#lineage1"
+          aria-expanded="false"
+          aria-controls="lineage"> Technology Intern ~ Lineage Logistics: Summer of 2022</button>
+
+          <div class="collapse multi-collapse mt-3 scroll-section text-start text-info" id="lineage1">
+            <ul>
+              <li>Built a web application for data profiling to provide technology teams with a tool for data analysis and visualization.</li>
+              <li>Constructed a clustering algorithm from scratch that leveraged natural language processing and geospatial data to make predictions on over 400 thousand rows of data.</li>
+              <li>Wrote routines to clean and geocode hundreds of thousands of rows of data using Python and Snowflake.</li>
             <ul>
           </div>
 
@@ -318,6 +332,30 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card text-primary">
+            <img src="fantasyFootballAppPic.png" class="card-img-top" alt="Fantasy Football Web Application"/>
+            <div class="card-body">
+              <h5 class="card-title">Fantasy Football Web Application and Model</h5>
+              <p class="card-text">
+                Independently, I built a Fantasy Football Machine Learning model with many improvements 
+                from my previous attempt, along with a web application for displaying these predictions
+                in tabular and graphical formats. The project is entirely written in Python. The application is
+                built with Streamlit and uses AG Grid and Plotly. The model is comprised of multiple XGBoost
+                Classifier models.
+              </p>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://github.com/bpabraham123/FantFootball2022-2023" role="button">
+                Model Code
+              </a>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://github.com/bpabraham123/FantFootballWebApp" role="button">
+                Application Code
+              </a>
+              <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://bpabraham123-fantfootballwebapp-main-w5vkl7.streamlitapp.com/" role="button">
+                Application
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-primary">
             <img src="medianIncomePic.jpg" class="card-img-top" alt="Median Income Picture"/>
             <div class="card-body">
               <h5 class="card-title">County Median Income Multiple Regression Model</h5>
@@ -337,7 +375,6 @@
               <a class="btn btn-primary btn-light text-primary border border-primary shadow-0" href="https://github.com/bpabraham123/countyMedianIncome/tree/main" role="button">
                 Code Repository
               </a>
-
             </div>
           </div>
         </div>
